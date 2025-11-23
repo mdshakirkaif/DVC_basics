@@ -9,6 +9,10 @@ data={
 
 df=pd.DataFrame(data)
 
+new={'name':'kubar','age':'20','city':'bombay'}
+df.loc[len(df.index)]=new
+
+
 data_dir='data'
 os.makedirs(data_dir,exist_ok=True)
 
