@@ -12,6 +12,8 @@ df=pd.DataFrame(data)
 new={'name':'kubar','age':'20','city':'bombay'}
 df.loc[len(df.index)]=new
 
+new2={'name':'vivan','age':'24','city':'UK'}
+df.loc[len(df.index)]=new2
 
 data_dir='data'
 os.makedirs(data_dir,exist_ok=True)
